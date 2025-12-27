@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: init.sql
+      relativeToChangelogFile: true
+  - includeAll:
+      path: 1-tables
+      relativeToChangelogFile: true
